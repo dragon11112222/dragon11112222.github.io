@@ -10,6 +10,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Gugi|Nanum+Gothic" rel="stylesheet">
     <style>
+      .container {
+        background-color: rgb(225, 225, 225, 0.9);
+        border-radius: 30px;
+      }
       .row {
         font-family: 'Nanum Gothic';
         margin-left: 10%;
@@ -23,35 +27,36 @@
 
   <body style="background-image: url('img/int03_title.jpg'); background-size: cover; background-attachment:fixed;">
     <!-- Site Navigation -->
-    <nav class="navbar navbar-light bg-transparent">
+    <nav class="navbar navbar-dark bg-transparent">
       <button class="navbar-toggler dropdown-toggle" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="dropdown-menu bg-transparent show" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item text-white" href="interactive.html" title="인터랙티브 전체 기사 보기" target="_blank">
-              < 전체기사
-            </a>
-            <a class="dropdown-item text-white" href="#서론" title="서론" target="_blank">
-              서론
-            </a>
-            <a class="dropdown-item text-white" href="#유형별" title="유형별 검거인원지수" target="_blank">
-              유형별
-            </a>
-            <a class="dropdown-item text-white" href="#지역별" title="지역별 검거인원지수" target="_blank">
-              지역별
-            </a>
-            <a class="dropdown-item text-white" href="#국적별" title="국적별 검거인원지수" target="_blank">
-              국적별
-            </a>
-            <a class="dropdown-item text-white" href="#결론" title="결론" target="_blank">
-              결론
-            </a>
+        <a class="dropdown-item text-white" href="interactive.html" title="인터랙티브 전체 기사 보기">
+          < 전체기사
+        </a>
+        <a class="dropdown-item text-white" href="#서론" title="서론" target="_self">
+          서론
+        </a>
+        <a class="dropdown-item text-white" href="#유형별" title="유형별 검거인원지수" target="_self">
+          유형별
+        </a>
+        <a class="dropdown-item text-white" href="#지역별" title="지역별 검거인원지수" target="_self">
+          지역별
+        </a>
+        <a class="dropdown-item text-white" href="#국적별" title="국적별 검거인원지수" target="_self">
+          국적별
+        </a>
+        <a class="dropdown-item text-white" href="#결론" title="결론" target="_self">
+          결론
+        </a>
       </div>
     </nav>
     <!-- End of Site Navigation -->
 
     <div class="jumbotron" style="background-color: transparent;">
-      <div class="container">
+      <div class="container1">
+        <br>
         <br>
         <br>
         <br>
@@ -88,12 +93,13 @@
         <br>
         <br>
         <br>
+        <br>
       </div>
     </div>
 
     <hr class="primary">
 
-    <div id="서론" class="container" style="background-color: rgb(225, 225, 225, 0.9); border-radius: 30px;">
+    <div id="서론" class="container">
       <div class="row">
         <div class="col-md-12">
           <br>
@@ -102,7 +108,10 @@
             <a href="http://news.mt.co.kr/mtview.php?no=2018062315092586601" title="남궁민 기자, [팩트체크]무슬림의 '범죄 공포'…오해와 진실은?, 머니투데이">
               머니투데이에서 외국인의 범죄율에 관해 팩트체크
             </a>
-            를 실시하였다. 다만 그 과정에서
+            를 실시하였다.
+          </p>
+          <p>
+            다만 그 과정에서
             <a href="https://www.kdevelopedia.org/download.do?timeFile=/mnt/idas/asset/2013/03/18/DOC/PDF/04201303180125403079663.pdf&originFileName=12-AA-09._%EC%99%B8%EA%B5%AD%EC%9D%B8_%EB%B0%80%EC%A7%91%EC%A7%80%EC%97%AD%EC%9D%98_%EB%B2%94%EC%A3%84%EC%99%80_%EC%B9%98%EC%95%88%EC%8B%A4%ED%83%9C_%EC%97%B0%EA%B5%AC_%EC%B5%9C%EC%98%81%EC%8B%A0.pdf">
               참고문헌1
             </a>
@@ -114,7 +123,7 @@
             <strong><u>
               어떠한 시각화도 없이 그대로 복사
             </strong></u>
-            하여 붙여 놓았다. 그래서 처음에는 숫자로만 빽빽하게 채워진 표를 좀 더 읽기 쉽게 그래프로 표현하면서 내용을 보충해 보는 것만 해도 인터랙티브의 의미가 있겠다 싶어서 이 주제를 선정해 보았다.
+            하여 붙여 놓았다. 그래서 처음에는 숫자로만 빽빽하게 채워진 이 표를 좀 더 읽기 쉽게 그래프로 표현하면서 내용을 보충해 보는 것만 해도 인터랙티브의 의미가 있겠다 싶어서 이 주제를 선정해 보았다.
           </p>
         </div>
       </div>
@@ -145,7 +154,7 @@
           ◇"외국인은 범죄율이 높다"
         </div>
         <div class="col-md-4">
-          > 실상은 내국인 절반에 못 미쳐
+          > 실상은 내국인의 절반에도 못 미쳐
         </div>
         <div class="col-md-1">
 
@@ -161,7 +170,7 @@
           ◇"흉악범죄를 저지를 가능성 더 높다"
         </div>
         <div class="col-md-4">
-          > 성별·연령 차이에 의한 착시
+          > 성별·연령별 차이에 의한 착시
         </div>
         <div class="col-md-1">
 
@@ -208,7 +217,7 @@
         <div class="col-md-10">
           <br>
           <p>
-            cf) 검거인원지수 : 인구 10만 명 당 검거인원지수(단위 : 명). 내국인과 외국인의 범죄율을 동일선상에서 비교하기 위해 도입.
+            cf) 검거인원지수란? 인구 10만 명 당 검거인원지수(단위 : 명). 내국인과 외국인의 범죄율을 동일선상에서 비교하기 위해 도입.
           </p>
         </div>
         <div class="col-md-1">
@@ -249,7 +258,7 @@
 
     <hr class="primary">
 
-    <div id="유형별" class="container" style="background-color: rgb(225, 225, 225, 0.9); border-radius: 30px;">
+    <div id="유형별" class="container">
       <div class="row">
         <div class="col-md-12">
           <br>
@@ -260,7 +269,7 @@
         </div>
         <div class="col-md-12">
           <p>
-            우선 기사에서는 전체 범죄와 5대 범죄(살인, 강도, 강간, 절도, 폭력) 모두 외국인이 내국인에 비해 수치가 낮다는 표를 제시한다.
+            기사에서는 전체 범죄와 5대 범죄(살인, 강도, 강간, 절도, 폭력) 모두 외국인이 내국인에 비해 수치가 낮다는 표를 제시한다.
           </p>
         </div>
         <br>
@@ -270,6 +279,9 @@
         </div>
         <div class="col-md-10">
           <br>
+          <p>
+            ◇"외국인은 범죄율이 높다"…실상은 내국인 절반에 못 미쳐
+          </p>
           <p>
             "그러나
             <strong><u>
@@ -314,17 +326,19 @@
         </div>
         <div class="col-md-10">
           <p>
-            "하지만 이는 내국인에 비해 현저히 높은 남성 비율, 상대적으로 젊은 인구구성의 영향이 크다."
+            ◇"흉악범죄를 저지를 가능성 더 높다"…성별·연령 차이에 의한 착시
           </p>
-        </div>
-        <div class="col-md-1">
-
-        </div>
-        <br>
-        <div class="col-md-1">
-
-        </div>
-        <div class="col-md-10">
+          <p>
+            "하지만 이는 내국인에 비해 현저히
+            <strong><u>
+              높은 남성 비율
+            </u></strong>
+            , 상대적으로
+            <strong><u>
+              젊은 인구구성
+            </u></strong>
+            의 영향이 크다."
+          </p>
           <p>
             "지난해 기준 국내체류 외국인의 성비(남성의 수/여성의 수)는 지난해 기준 약 1.33으로 내국인의 성비(1)보다 현저히 높다. 검찰청 범죄분석통계에 따르면 2016년 기준 남성은 여성에 비해 살인을 5.9배, 강도는 9.1배 많이 저지른다."
           </p>
@@ -370,7 +384,7 @@
 
     <hr class="primary">
 
-    <div id="지역별" class="container" style="background-color: rgb(225, 225, 225, 0.9); border-radius: 30px;">
+    <div id="지역별" class="container">
       <div class="row">
         <div class="col-md-12">
           <br>
@@ -381,7 +395,7 @@
         </div>
         <div class="col-md-12">
           <p>
-            기자는 참고문헌에서 전체 범죄에 관한 테이블만 가지고 와서 자신의 논거로 활용하여 우선 내국인의 수치가 외국인보다 압도적으로 높고, 외국인의 수치는 구로구를 제외하고는 전국 평균보다 낮으며, 내국인의 수치는 모두 전국 평균보다 높다고 말했다.
+            기자는 참고문헌1(2012)에서 전체 범죄에 관한 테이블만 가지고 와서 자신의 논거로 활용하여 우선 내국인의 수치가 외국인보다 압도적으로 높고, 외국인의 수치는 구로구를 제외하고는 전국 평균보다 낮으며, 내국인의 수치는 모두 전국 평균보다 높다고 말했다.
           </p>
         </div>
         <br>
@@ -395,7 +409,7 @@
             <strong><font color="red">
               그러나
             </font></strong>
-            참고문헌에는 5대 범죄를 묶어서 나온 표도 제시되어 있다.
+            참고문헌1(2012)에는 5대 범죄를 묶어서 나온 표도 제시되어 있다.
           </p>
         </div>
         <br>
@@ -414,7 +428,7 @@
 
     <hr class="primary">
 
-    <div id="국적별" class="container" style="background-color: rgb(225, 225, 225, 0.9); border-radius: 30px;">
+    <div id="국적별" class="container">
       <div class="row">
         <div class="col-md-12">
           <br>
@@ -436,7 +450,7 @@
             <strong><font color="red">
               그러나
             </font></strong>
-            참고문헌에서는 애초에 이 테이블이 특정 국적에 대한 어떤 긍정/부정적인 이미지로 활용되는 것 자체를 경계하고 있었다.
+            참고문헌1(2012)에서는 애초에 이 테이블이 특정 국적에 대한 어떤 긍정/부정적인 이미지로 활용되는 것 자체를 경계하고 있었다.
           </p>
         </div>
         <br>
@@ -451,7 +465,7 @@
               특정 국적 외국인이 다른 국적의 외국인에 비하여 범죄발생률이 높다거나 혹은 낮다고 일반화하여 해석하지 않도록
             </u></strong>
              주의할 필요가 있다. 국적별 등록외국인 10만명당 외국인 범죄자 검거인원은 각 외국인의 국적별 구성에서 범죄에 가담한 비율이 어느 정도인지를 판단하는 자료로 활용되어야 할 것이다.
-            예컨대, 몽골 국적 외국인의 등록외국인수 대비 범죄자수가 가장 높다고 하여 몽골 국적 외국인이 일반적으로 범죄발생 가능성이 높다고 해석해서는 안 되며, 국내에 체류하는 몽골 국적 외국인 중에는 범죄에 가담한 비율이 높다고 보아야 할 것이다."
+            예컨대, 몽골 국적 외국인의 등록외국인수 대비 범죄자수가 가장 높다고 하여 몽골 국적 외국인이 일반적으로 범죄발생 가능성이 높다고 해석해서는 안 되며, 국내에 체류하는 몽골 국적 외국인 중에는 범죄에 가담한 비율이 높다고 보아야 할 것이다."(p. 81)
           </p>
         </div>
         <div class="col-md-1">
@@ -469,7 +483,7 @@
 
     <hr class="primary">
 
-    <div id="결론" class="container" style="background-color: rgb(225, 225, 225, 0.9); border-radius: 30px;">
+    <div id="결론" class="container">
       <div class="row">
         <div class="col-md-12">
           <br>
@@ -480,13 +494,13 @@
         </div>
         <div class="col-md-12">
           <h3>
-            외국인의 전체적인 범죄율이 낮다는 말은
+            외국인의 범죄율이 낮다는 말은 전체적으로는
             <strong><u>
               사실이다.
             </u></strong>
           </h3>
           <h3>
-             다만 각 범죄 별로 따졌을 때에는
+             다만 각 범죄 유형별/지역별로 따졌을 때에는
              <strong><u>
                사실이 아니다.
              </u></strong>
